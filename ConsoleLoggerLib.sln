@@ -7,7 +7,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLoggerHelper", "Cons
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLoggerLib", "ConsoleLoggerLib.vcxproj", "{31A50F78-F444-4FA3-B598-C581195CB2EE}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_console", "ConsoleLogger_DEMO\ConsoleLogger_DEMO.vcxproj", "{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ConsoleLogger_DEMO", "ConsoleLogger_DEMO\ConsoleLogger_DEMO.vcxproj", "{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
