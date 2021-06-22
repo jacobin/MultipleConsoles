@@ -71,11 +71,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
+    <TargetName>ConsoleLogger</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -83,15 +84,17 @@
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <TargetName>ConsoleLogger</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
+    <TargetName>ConsoleLogger</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -99,7 +102,8 @@
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <TargetName>ConsoleLogger</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>

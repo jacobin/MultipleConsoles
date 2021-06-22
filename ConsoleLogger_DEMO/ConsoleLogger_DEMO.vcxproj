@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LinkIncremental>false</LinkIncremental>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
@@ -84,11 +84,11 @@
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
     <LinkIncremental>true</LinkIncremental>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <CodeAnalysisRules />
@@ -100,7 +100,7 @@
     <CodeAnalysisRules />
     <CodeAnalysisRuleAssemblies />
     <OutDir>$(SolutionDir)out\$(PlatformShortName)\$(Configuration)\</OutDir>
-    <IntDir>$(SolutionDir)int\$(PlatformShortName)\$(Configuration)\</IntDir>
+    <IntDir>$(SolutionDir)int\$(ProjectName)\$(PlatformShortName)\$(Configuration)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
@@ -112,7 +112,7 @@
       <SuppressStartupBanner>true</SuppressStartupBanner>
       <WarningLevel>Level3</WarningLevel>
       <AdditionalIncludeDirectories>../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>$(IntDir)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
       <PrecompiledHeader />
@@ -186,7 +186,7 @@
       <MinimalRebuild>true</MinimalRebuild>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
       <AdditionalIncludeDirectories>../;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <PrecompiledHeaderOutputFile>$(IntDir)\$(ProjectName).pch</PrecompiledHeaderOutputFile>
       <PrecompiledHeader />
