@@ -11,20 +11,34 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "test_console", "ConsoleLogg
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Debug|x64.ActiveCfg = Debug|x64
+		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Debug|x64.Build.0 = Debug|x64
 		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Debug|x86.ActiveCfg = Debug|Win32
 		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Debug|x86.Build.0 = Debug|Win32
+		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Release|x64.ActiveCfg = Release|x64
+		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Release|x64.Build.0 = Release|x64
 		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Release|x86.ActiveCfg = Release|Win32
 		{EC63B63E-EB7E-43C5-9F9C-9E5308A2E63A}.Release|x86.Build.0 = Release|Win32
+		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Debug|x64.ActiveCfg = Debug|x64
+		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Debug|x64.Build.0 = Debug|x64
 		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Debug|x86.ActiveCfg = Debug|Win32
 		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Debug|x86.Build.0 = Debug|Win32
+		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Release|x64.ActiveCfg = Release|x64
+		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Release|x64.Build.0 = Release|x64
 		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Release|x86.ActiveCfg = Release|Win32
 		{31A50F78-F444-4FA3-B598-C581195CB2EE}.Release|x86.Build.0 = Release|Win32
+		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Debug|x64.ActiveCfg = Debug|x64
+		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Debug|x64.Build.0 = Debug|x64
 		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Debug|x86.ActiveCfg = Debug|Win32
 		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Debug|x86.Build.0 = Debug|Win32
+		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Release|x64.ActiveCfg = Release|x64
+		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Release|x64.Build.0 = Release|x64
 		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Release|x86.ActiveCfg = Release|Win32
 		{DD3AF8FB-C37B-42ED-A149-B26D78F15E33}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
